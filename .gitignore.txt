@@ -1,0 +1,25 @@
+
+# Root .gitignore for monorepo project
+
+# === Backend (Node.js) ===
+backend/node_modules/
+backend/.env
+backend/.DS_Store
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# === Flutter Frontend ===
+frontend/.dart_tool/
+frontend/.idea/
+frontend/.vscode/
+frontend/build/
+frontend/.packages
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.metadata
+
+# === General ===
+*.log
+.DS_Store
+.env
